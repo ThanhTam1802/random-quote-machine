@@ -1,0 +1,50 @@
+.wrapper{
+  padding: 30%;
+}
+.button-container{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+#quote-box {
+  border-radius: 15px;
+  position: relative;
+  width: 450px;
+  padding: 40px 50px;
+  display: table;
+  background-color: lightgray;
+  margin: auto;
+}
+
+#text {
+  text-align: center;
+  font-size: 2em;
+  font-family: monospace;
+  font-style: italic;
+}
+
+#author {
+  text-align: right;
+  margin-right: 5px;
+  font-weight: bold;
+}
+
+#new-quote {
+  font: bold 14px Arial;
+  text-decoration: none;
+  border-radius: 3px;
+  color: white;
+  padding: 15px 15px;
+  background-color: #333;
+  cursor: pointer;
+}
+
+#tweet-quote {
+  font: bold 14px Arial;
+  text-decoration: none;
+  border-radius: 3px;
+  color: white;
+  padding: 15px 15px;
+  background-color: #333;
+  cursor: pointer;
+}
